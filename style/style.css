@@ -580,4 +580,8 @@ body {
   .li_icon {
     width: 1rem;
   }
+
+  .down {
+    margin-top:3rem;
+  }
 }
