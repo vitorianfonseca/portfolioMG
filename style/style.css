@@ -76,7 +76,7 @@ body {
     }
 
     .hero_first_title {
-      margin-top: 15%;
+      margin-top: 11.8rem;
       color: var(--color-secondary-pure);
       font-family: var(--title-font);
       font-size: 3.75rem;
