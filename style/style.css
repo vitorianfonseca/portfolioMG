@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url(https://db.onlinewebfonts.com/c/cd7b05ba22e73021e0a390f532a72589?family=PP+Telegraf);
+@import url(https://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display+Light);
+@import url(https://db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display+Regular);
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+/* Colors */
+:root {
+  --yellow-primary-light: #DEE70B;
+  --yellow-primary-pure: #D7CE07;
+  --yellow-primary-dark: #9F8C09;
+  --color-neutral-03: #FFFFFF;
+  --color-neutral-02: #F6F6F5;
+  --color-neutral-01: #DDDDDA;
+  --color-secondary-light: #757574;
+  --color-secondary-pure: #3D3D3C;
+  --color-secondary-dark: #262626;
+  --main-font:"PP Telegraf";
+  --secundary-fontt: "SF Pro Display Light";
+  --secondary-font: "SF Pro Display";
+  
+}
+
+/* Fonts */
+
+body {
+    background-color: var(--bg-color);
+    background-image: url(assets/bg.svg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: contain;
+
+}
+/* HEADER */
+
+    .header_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2.5rem;
+    }
+
+    .header_menu {
+        display: flex;
+    }
+
+    .header_link {
+        text-decoration: none;
+        padding-left: 3.25rem;
+        color: var(--main-color-text);
+        font-family: Inter;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .header_link:hover {
+        color: var(--yellow-primary-pure);
+    }
+
+/* HEADER */
+
+
+
+/* HERO SECTION */
+
+    .hero_content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .hero_first_title {
+      margin-top: 11.8rem;
+      color: var(--color-secondary-pure);
+      font-family: var(--title-font);
+      font-size: 3.75rem;
+      font-weight: 400;
+      line-height: 110%;
+    }
+
+    .hero_second_title {
+        color: var(--color-secondary-pure);
+        font-family: var(--title-font);
+        font-size: 6.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%; 
+        width: 60%;
+    }
+
+    s {
+        text-decoration-thickness: 4px;
+        
+    }
+
+    .down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
+        margin-bottom: 7.8rem;
+    }
+
+    .down_text {
+        color: var(--color-secondary-dark, #262626);
+        text-align: center;
+        
+        /* Normal Text Reg */
+        font-family: "SF Pro Text";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 0%; /* 0rem */
+    }
+
+    .down_arrow {
+        width: 2rem;
+        margin-top: 0.75rem;
+    }
+
+/* HERO SECTION */
+
+/* INFO SECTION */
+
+    .info_container {
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--color-secondary-pure);
+      background-image: url(assets/experiences.svg);
+      background-repeat: no-repeat;
+      background-position-x: 9%;
+      background-position-y: 35%;
+      height: auto;
+      padding-right: 5%;
+      background-size: 50%;
+    }
+
+    .info_left {
+      padding-left: 5%;
+    }
+
+    .skills {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .up_skills {
+      display: flex;
+      margin-bottom: 1rem;
+    }
+
+    .down_skills {
+      display: flex;
+      margin-bottom: 4rem;
+    }
+
+    .skill_component {
+      display: flex;
+      align-items: center;
+      background: var(--color-neutral-02);
+      padding: 0.19rem 0.25rem;
+      border-radius: 3.8rem;
+      margin-right: 1rem;
+      height: 3rem;
+      box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .skill_component:hover {
+      background: var(--color-neutral-01);
+      box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    }
+    
+    .skill_img {
+      width: auto;
+      padding-right: 0.5rem;
+    }
+
+    .skill_text {
+      color: var(--color-secondary-light);
+      font-family: "SF Pro Text";
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 0%;
+      padding-right: 0.5rem;
+    }
+
+
+    .info__first_title {
+      color: #FFF;
+      font-family: var(--main-font);
+      font-size: 3.75rem;
+      font-style: normal;
+      font-weight: 400;
+      margin-top: 15%;
+      margin-bottom: 0.8rem;
+    }
+
+    .info_second_title {
+      color: #FFF;
+      font-family: var(--main-font);
+      font-size: 3.75rem;
+      font-style: normal;
+      font-weight: 400;
+      margin-bottom: 3.5rem;
+    }
+
+    .info_right {
+      width: 34%;
+    }
+
+    .divider {
+      margin-top: 4rem;
+    }
+
+    .info_text {
+      color: var(--color-neutral-02);
+      font-family: var(--secundary-font);
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      margin-top: 2rem ;
+      margin-bottom: 4rem;
+    }
+
+    .links {
+      display: flex;
+    }
+
+    .link_info {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: var(--color-neutral-02);
+      font-family: var(--secundary-font);
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 400;
+      padding-right: 3rem;
+    }
+
+    .link_info:hover {
+      color: var(--yellow-primary-pure);
+    }
+
+/* INFO SECTION */
+
+/* WORK SECTION */
+
+    .work_container {
+      display: flex;
+      justify-content: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .work_text {
+      display: flex;
+      justify-content: center;
+      margin-top: 7%;
+      margin-bottom: 12%;
+      color: var(--color-secondary-dark, #262626);
+      font-family: "PP Telegraf";
+      font-size: 1.875rem;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      font-family: sans-serif;
+      margin: auto;
+    }
+    
+    .tabs__label {
+      display: flex;
+      justify-content: center;
+      padding-left: auto;
+      padding-right: auto;
+      cursor: pointer;
+      width: 50%;
+      padding-bottom: 1.28rem;
+      color: var(--color-secondary-light);
+      font-family: var(--secundary-font);
+      font-size: 1.25rem;
+      font-style: normal;
+    }
+    
+    .tabs__radio {
+      display: none;
+    }
+    
+    .tabs__content {
+      order: 1;
+      width: 100%;
+      line-height: 1.5;
+      display: none;
+      height: 100%;
+    }
+    
+    .tabs__radio:checked + .tabs__label {
+      font-weight: bold;
+      color: var(--yellow-primary-pure);
+      border-bottom: 0.125rem solid var(--yellow-primary-pure);
+    }
+    
+    .tabs__radio:checked + .tabs__label + .tabs__content {
+      display: initial;
+    }
+
+    .tabs__content img { 
+      max-width: 100%;
+      height: auto;
+    }
+
+
+    .project1_left {
+      width: 100%;
+      height: auto;
+      margin-top: 0.8rem;
+    }
+    
+    .project2_left {
+      width: 49%;
+      height: auto;
+    }
+    
+
+    .project3_left {
+      width: 49%;
+      height: auto;
+    }
+
+    .project2_right {
+      width: 49%;
+      height: auto;
+    }
+    
+
+    .project3_right {
+      width: 49%;
+      height: auto;
+    }
+
+    .project1_left,
+    .project2_left,
+    .project3_left,
+    .project1_right,
+    .project2_right,
+    .project3_right {
+      max-width: 100%;
+      height: auto;
+      margin-top: 0.8rem;
+    }
+
+    .soon_projects {
+      display: flex;
+      justify-content: center;
+      gap: 2%;
+      margin-top: 0.75rem;
+    }
+
+  /* WORK SECTION */
+
+  /* FOOTER SECTION */
+
+  .footer {
+    margin-top: 10%;
+    border-top: 1px solid var(--color-neutral-01);
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 5%;
+    margin-left: 5%;
+
+  }
+
+  .footer_left_text {
+    color: var(--color-secondary-dark);
+    font-family: var(--secundary-font);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+  }
+
+  .footer_right {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_right_text {
+    margin-right: 1.75rem;
+    color: var(--color-secondary-dark);
+    font-family: var(--secundary-font);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
+  }
+
+  .mail_icon {
+    margin-right: 1.25rem;
+  }
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 768px) {
+
+  .hero_second_title {
+      width: 100%;
+  }
+
+  .info_container {
+    background-position-x: 9%;
+    background-position-y: 30%;
+  }
+
+  .info__first_title {
+    font-size: 2.5rem;
+  }
+
+  .info_second_title {
+    font-size: 2.5rem;
+  }
+
+  .skill_component {
+    display: flex;
+    align-items: center;
+    background: var(--color-neutral-02);
+    padding: 0.19rem 0.25rem;
+    border-radius: 3.8rem;
+    margin-right: 1rem;
+    height: 2rem;
+  }
+
+  .skill_img {
+    width: 2rem;
+    padding-right: 0.5rem;
+  }
+
+  .skill_text {
+    color: var(--color-secondary-light);
+    font-family: "SF Pro Text";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0%;
+    padding-right: 0.5rem;
+  }
+
+  .divider {
+    margin-top: 3rem;
+  }
+
+  .info_text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .link_info {
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+
+}
+ 
+@media only screen and (max-width: 390px) {
+  .hero_first_title {
+    font-size: 2.5rem;
+  }
+
+  .hero_second_title {
+      font-size: 4rem;
+      width: 100%;
+  }
+
+  .info_container {
+    background-position-x: 15%;
+    background-position-y: 17%;
+    background-size: 80%;
+    flex-direction: column;
+  }
+
+  .info__first_title {
+    font-size: 2.5rem;
+  }
+
+  .info_second_title {
+    font-size: 2.5rem;
+  }
+
+  .skill_component {
+    display: flex;
+    align-items: center;
+    background: var(--color-neutral-02);
+    padding: 0.19rem 0.25rem;
+    border-radius: 3.8rem;
+    margin-right: 1rem;
+    height: 2rem;
+  }
+
+  .skill_img {
+    width: 2rem;
+    padding-right: 0.5rem;
+  }
+
+  .skill_text {
+    color: var(--color-secondary-light);
+    font-family: "SF Pro Text";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0%;
+    padding-right: 0.5rem;
+  }
+
+  .divider {
+    margin-top: 0rem;
+    margin-left: 5%;
+  }
+
+  .info_text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 5%;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 3rem;
+  }
+
+  .info_right {
+    width: 100%;
+  }
+
+  .link_info {
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+
+
+  .footer_left_text {
+    font-size: 0.8rem;
+  }
+
+  .footer_right_text {
+    font-size: 0.8rem;
+  }
+
+  .mail_icon {
+    width: 1rem;
+  }
+
+  .li_icon {
+    width: 1rem;
+  }
+}
